@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--icon-->
+    <link rel="stylesheet" href="./image/style.css" />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>TrançARTS</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Tranç<span>ARTS.</span></a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Inicio</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img src="./image/Camila.png" alt="Imagem 1" />
+          </div>
+          <div class="text">
+            <h2 class="title">A trança ideal para cada momento</h2>
+            <p>
+              As tranças são excelentes aliadas na hora de manter o cabelo no
+              lugar e protegido. Tais penteados visam reduzir o desgaste causado
+              por fatores ambientais nos cabelos!!!
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5511972713760&text=Olá gostaria de agendar um horário."
+              class="button"
+              target="_blank"
+              >Agendar um horário</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img src="./image/camila.jpg" alt="Foto camila" />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Me chamo Camila moro em Mogi das cruzes, São Paulo. Comecei a
+              fazer as tranças como uma forma de trabalho em 2020, mas, desde
+              sempre fiz tranças nas minhas amigas mais próximas e gostava de
+              cuidar dos cabelos. Então juntei um meio de trabalho junto com meu
+              amor por cuidar de cabelos, e por fazer as tranças tentando trazer
+              sempre o melhor resultado possível para você
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p class="subtitle">
+              Meu serviço tem muito haver com o nosso logotipo,
+              <strong>TrançArts</strong> aqui eu ponho em prática em forma de
+              trança a sua arte! Elas são feitas com pomadas modeladoras para
+              maior durabilidade. Porém tem cliente que não gosta, ou trança que
+              nao precisa da pomada, e mesmo assim elas continuam lindas!!
+              Fazemos desde a trança nago, até um penteado casual com tranças.
+              Aqui quem manda é você! E cada trança é uma nova chance de eu me
+              aperfeiçoar mais ainda. Venha conhecer esse serviço e se apaixonar
+              por essa arte assim como eu!
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <a class="link" href="#" onclick="modal.open()">
+                <h3 class="title">Modelos</h3>
+                <p>
+                  Confira aqui alguns modelos das tranças, nagos e penteados com
+                  tranças. Mas lembre-se, contamos com a sua criatividade e
+                  inovação! Caso queira um modelo diferente, entre em contato
+                </p>
+              </a>
+            </div>
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <a class="link" href="#" onclick="modalOne.open()">
+                <h3 class="title">Cuidados</h3>
+                <p>
+                  Confira os cuidados necessários para poder manter suas tranças
+                  lindas por mais tempo!
+                </p>
+              </a>
+            </div>
+            <div class="card">
+              <i class="icon-banknote"></i>
+              <a class="link" href="#" onclick="modalValue.open()">
+                <h3 class="title">Valores</h3>
+                <p>
+                  Aceitamos Débito, Crédito, Pix, Transferência Bancária e em
+                  Espécie. Confira os valores!
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Migaaaaa estou apaixonada, muito obrigada por cada detalhe
+                    das tranças, são incríveis…
+                  </p>
+                  <cite>
+                    <img src="./image/livia.jpeg" alt="Foto de Bárbara Lyvio" />
+                    Bárbara Lyvio
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Já fiz varias tranças lindas com a Camila ela é uma ótima
+                    trancista, odoro como ela é paciente e delicada diferente de
+                    muitas, não doem na hora de fazer e ficam lindas no final,
+                    ela é super educada e me tratou muito bem! tambem achei
+                    muito barato pela qualidade das tranças.
+                  </p>
+                  <cite>
+                    <img
+                      src="./image/satyrio.jpeg"
+                      alt="Foto de Gabriela Satyro"
+                    />
+                    Gabriela Satyro
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Ótima trancista,simpática demais,as tranças feitas por ela é da melhor qualidade podem fazer sem medo
+                  </p>
+                  <cite>
+                    <img
+                      src="./image/felipe.jpeg"
+                      alt="Fotos de Felipe Freitas"
+                    />
+                    Felipe Freitas
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    As tranças da Trancarts são maravilhosas, toda semana eu quero fazer, não recomendo outro lugar!!! Todas são bem feitas, dura muito muito tempo, preço acessível e além de tudo a Camila tem mãos de fada e não dói nenhum pouco. Melhor trancista não tem, parabéns
+                  </p>
+                  <cite>
+                    <img
+                      src="./image/leticia.jpeg"
+                      alt="Fotos de Letícia Soares"
+                    />
+                    Letícia Soares
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- Contato -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a TrançArts, queremos tirar suas dúvidas,
+              ouvir suas criticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5511972713760&text=Olá gostaria de saber mais sobre seu trabalho."
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul>
+              <li><i class="icon-phone"></i>11 97271-3760</li>
+              <br />
+              <li><i class="icon-mail"></i>camilalimaa944@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal-overlay">
+      <div class="modal">
+        <div class="input-group actions">
+          <div id="close" class="container grid">
+            <div>
+              <h1>Modelos</h1>
+            </div>
+            <div>
+              <a
+                href="#services"
+                onclick="modal.close()"
+                class="toggle icon-close"
+              ></a>
+            </div>
+          </div> 
+        </div>
+        <div>
+          <table class="table">
+            <tr>
+              <td><img src="./image/nagodesenhada2.jpeg" alt=""></td>
+              <td>Nagô Desenhada</td>
+              <td><img src="./image/nagoinclinada.jpeg" alt=""></td>
+              <td>Nagô Inclinada</td>
+            </tr>
+            <tr>
+              <td><img src="./image/nagolateral.jpeg" alt=""></td>
+              <td>Nagô Lateral</td>
+              <td><img src="./image/nagotopo.jpeg" alt=""></td>
+              <td>Nagô Topo</td>
+            </tr>
+            <tr>
+              <td><img src="./image/nagomasculina.jpeg" alt=""></td>
+              <td>Nagô Masculina</td>
+              <td><img src="./image/boxeadora.jpeg" alt=""></td>
+              <td>Boxeadora</td>
+            </tr>
+            <tr>
+              <td><img src="./image/boxeadoracomnago.jpeg" alt=""></td>
+              <td>Boxeadora com Nagô</td>
+              <td><img src="./image/lateral.jpeg" alt=""></td>
+              <td>Lateral</td>
+            </tr>
+            <tr>
+              <td><img src="./image/penteadocomtranca.jpeg" alt=""></td>
+              <td>Penteado com Trança</td>
+              <td><img src="./image/embutida.jpeg" alt=""></td>
+              <td>Embutida</td>
+            </tr>
+            
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-overlay-one ">
+      <div class="modal">
+          <div class="input-group actions">
+            <div id="close" class="container grid">
+              <div>
+                <h1>Cuidados</h1>
+              </div>
+              <div>
+                <a
+                  href="#services"
+                  onclick="modalOne.close()"
+                  class="toggle icon-close"
+                ></a>
+              </div>
+            </div>
+          </div>
+        
+          <br />
+          <div class="divider-1"></div>
+          <div>
+            <br />
+            <h2>Como dormir com as tranças?</h2>
+            <p>
+              • A melhor forma de dormir com as tranças é com elas soltas dentro
+              de uma touca de cetim.
+            </p>
+            <br />
+            <div class="divider-2"></div>
+            <br />
+            <h2>Como lavar o cabelo com as tranças nagô?</h2>
+            <p>
+              • A higienização das tranças é parecida com a do cabelo
+              natural.<br />
+              Confira as dicas: <br />
+              • Lavar ao menos uma vez por semana Usar shampoo e condicionador
+              <br />
+              • Usar água fria Secar com uma toalha de algodão.<br />
+              • Recomendamos apenas diminuir o uso de máscaras, pois será
+              aplicada diretamente no couro cabeludo, podendo aumentar a
+              oleosidade. É fato, quem tem cabelo cacheado quase não vive sem
+              creme hidratante! Mas na hora de cuidar das tranças nagô, ele não
+              é um bom aliado. não é aconselhável utilizar nenhum tipo de
+              finalizador, pois o excesso de resíduos pode levar a coceira do
+              couro cabeludo, e danificar as tranças antes do tempo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-overlay-value">
+      <div class="modal">
+        <div class="input-group actions">
+          <div id="close" class="container grid">
+            <div>
+              <h1>Valores</h1>
+            </div>
+            <div>
+              <a
+                href="#services"
+                onclick="modalValue.close()"
+                class="toggle icon-close"
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <table class="valores">
+            <tr>
+              <td>Embutida</td>
+              <td></td>
+              <td>R$20,00</td>
+            </tr>
+            <tr>
+              <td>Boxeadora</td>
+              <td>Simples</td>
+              <td>R$25,00</td>
+            </tr>
+            <tr>
+              <td>Boxeadora</td>
+              <td>Com Lateral</td>
+              <td>R$30,00</td>
+            </tr>
+            <tr>
+              <td>Masculina</td>
+              <td></td>
+              <td>R$30,00</td>
+            </tr>
+            <tr>
+              <td>Inclinada</td>
+              <td>2 a 4 tranças</td>
+              <td>R$20,00</td>
+            </tr>
+            <tr>
+              <td>Nagô Desenhada</td>
+              <td></td>
+              <td>R$25,00</td>
+            </tr>
+            <tr>
+              <td>Topo</td>
+              <td>2 a 4 tranças</td>
+              <td>R$20,00</td>
+            </tr>
+            <tr>
+              <td>Topo</td>
+              <td>5 a 6 tranças</td>
+              <td>R$25,00</td>
+            </tr>
+            <tr>
+              <td>Tiara</td>
+              <td>6 a 8 tranças</td>
+              <td>R$30,00</td>
+            </tr>
+            <tr>
+              <td>Tiara</td>
+              <td>+9 tranças</td>
+              <td>R$35,00</td>
+            </tr>
+            <tr>
+              <td>Lateral</td>
+              <td>3 a 4 tranças</td>
+              <td>R$20,00</td>
+            </tr>
+            <tr>
+              <td>Lateral</td>
+              <td>5 a 7 tranças</td>
+              <td>R$25,00</td>
+            </tr>
+          </table>
+          <h2>Acessórios</h2>
+          <table class="valores">
+            <tr>
+              <td>Fios Coloridos</td>
+              <td>R$2,00</td>
+              <td>por trança</td>
+            </tr>
+            <tr>
+              <td>Anéis</td>
+              <td>R$1,00</td>
+              <td>cada</td>
+            </tr>
+            <tr>
+              <td>Argolas</td>
+              <td>R$1,00</td>
+              <td>4 unidades</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">Tranç<span>ARTS.</span></a>
+          <p>Todos os direitos reservados.</p>
+          <p>©2021, by Vitor Antero</p>
+        </div>
+        <div class="social grid">
+          <a href="https://www.instagram.com/_trancarts/" target="_blank"
+            ><i class="icon-instagram"></i
+          ></a>
+          <a href="" target="_blank"><i class="icon-facebook"></i></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=+5511972713760&text=Olá, tudo bem?."
+            target="_blank"
+            ><i class="icon-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
+    <script src="./main.js"></script>
+  </body>
+</html>
