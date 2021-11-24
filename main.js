@@ -28,28 +28,6 @@ const modal = {
   }
 }
 
-const modalOne = {
-  open() {
-    // Abrir o Modal
-    document.querySelector('.modal-overlay-one').classList.add('active')
-  },
-  close() {
-    // Fechar Modal
-    document.querySelector('.modal-overlay-one').classList.remove('active')
-  }
-}
-
-const modalValue = {
-  open() {
-    // Abrir o Modal
-    document.querySelector('.modal-overlay-value').classList.add('active')
-  },
-  close() {
-    // Fechar Modal
-    document.querySelector('.modal-overlay-value').classList.remove('active')
-  }
-}
-
 /* mudar o header da página quando der scroll */
 const header = document.querySelector('#header')
 const navHeight = header.offsetHeight
